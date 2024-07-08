@@ -36,7 +36,7 @@ const Sales = ({ ifExists }) => {
 
   return (
     <>
-      <div className='sales nike-container mt-10'>
+      <div className='sales nike-container mt-10 w-full'>
         <Title title={'Product List'} />
         <div className='filter-controls mt-4 flex justify-between'>
           <div className='category-select'>
@@ -53,7 +53,7 @@ const Sales = ({ ifExists }) => {
               ))}
             </select>
           </div>
-          <div className='search-box '>
+          <div className='search-box sm:w-1/3'>
             <label htmlFor='search'>Search: </label>
             <input
               id='search'
